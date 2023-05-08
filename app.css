@@ -15,6 +15,7 @@ body {
 	justify-content: center;
 	background-color: #b8b8b8;
 	padding: 1rem;
+	border-radius: 0.5rem;
 	clip-path: polygon(0 0, 100% 0, 100% 30px, 55% 90%, 45% 90%, 0 30px);
 }
 
@@ -23,18 +24,43 @@ body {
 }
 
 .ineContent {
-	display: grid;
-	grid-template-columns: 2;
-	grid-template-rows: 1;
-	padding-inline-start: 1rem;
+	display: flex;
+	flex-direction: column;
+	padding-inline: 1rem;
+}
+
+.contentHeader {
+	display: flex;
+	border: 1px solid blue;
+	justify-content: space-evenly;
 }
 
 .foto {
-	grid-column: 1/2;
-	width: 10px;
+	height: 50px;
+	width: 50px;
+	border: 1px solid red;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.nombre {
+	border: 1px solid #a5c71b;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .datos {
-	grid-column: 2/3;
-	height: 100px;
+	border: 1px solid #a5c71b;
+	display: flex;
+	flex-direction: column;
+	padding-block-start: 0.5rem;
+}
+
+.CampoIne {
+	display: flex;
+	flex-direction: column;
+	padding: 0.5rem;
 }
