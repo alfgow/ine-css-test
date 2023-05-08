@@ -97,3 +97,24 @@ body {
 	padding-inline: 0.3rem;
 	border-radius: 0.3rem;
 }
+
+.sector3 {
+	border: 1px solid #a5c71b;
+	display: flex;
+	padding-inline: 0.5rem;
+	justify-content: space-evenly;
+	align-items: center;
+	gap: 1rem;
+}
+
+.inputsector3 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.inputsector3 input {
+	display: block;
+	inline-size: 100%;
+}
