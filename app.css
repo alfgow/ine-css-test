@@ -6,6 +6,7 @@ body {
 	border: 1px solid #b8b8b8;
 	background-color: #f3f2f2;
 	border-radius: 0.5rem;
+	padding-block-end: 1.5rem;
 }
 
 .titulo {
@@ -25,12 +26,12 @@ body {
 .ineContent {
 	display: flex;
 	flex-direction: column;
-	padding-inline: 1rem;
+	padding-inline-end: 1rem;
+	padding-inline-start: 0.5rem;
 }
 
 .contentHeader {
 	display: flex;
-	border: 1px solid blue;
 	justify-content: space-evenly;
 }
 
@@ -52,7 +53,6 @@ body {
 }
 
 .datos {
-	border: 1px solid #a5c71b;
 	display: flex;
 	flex-direction: column;
 	padding-block-start: 0.5rem;
@@ -99,7 +99,6 @@ body {
 }
 
 .sector3 {
-	border: 1px solid #a5c71b;
 	display: flex;
 	padding-inline: 0.5rem;
 	justify-content: space-evenly;
@@ -117,4 +116,9 @@ body {
 .inputsector3 input {
 	display: block;
 	inline-size: 100%;
+}
+
+.wrapper {
+	border-left: 2px dashed brown;
+	margin-inline-start: 1rem;
 }
