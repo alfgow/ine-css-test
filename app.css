@@ -6,7 +6,6 @@ body {
 	border: 1px solid #b8b8b8;
 	background-color: #f3f2f2;
 	border-radius: 0.5rem;
-	height: 200px;
 }
 
 .titulo {
@@ -63,4 +62,29 @@ body {
 	display: flex;
 	flex-direction: column;
 	padding: 0.5rem;
+}
+
+.CampoIne2 {
+	display: flex;
+	padding: 0.5rem;
+	gap: 0.5rem;
+}
+
+.inputINE {
+	padding-block: 0.2rem;
+	padding-inline: 0.1rem;
+}
+
+.anioreg {
+	display: flex;
+}
+
+.inputINE2 {
+	width: 50%;
+	padding-block: 0.2rem;
+	padding-inline: 0.1rem;
+}
+
+.subcampo label {
+	text-align: center;
 }
