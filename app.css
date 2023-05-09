@@ -72,7 +72,8 @@ body {
 .inputINE {
 	border: none;
 	background-color: #f3f2f2;
-	border-bottom: 1px solid #a5c71b;
+	border-bottom: 1px solid #cbcbcb;
+	color: chocolate;
 }
 
 .curp,
