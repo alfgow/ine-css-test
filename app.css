@@ -58,11 +58,10 @@ body {
 	font-weight: bold;
 }
 
-.sector1 {
+.claveElector {
 	display: flex;
-	flex-direction: column;
-	padding-inline-start: 0.5rem;
 	gap: 0.5rem;
+	justify-content: space-evenly;
 }
 
 .sector2 {
